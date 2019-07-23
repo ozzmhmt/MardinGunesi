@@ -1,0 +1,23 @@
+PODS:
+  - ImageSlideshow (1.8.0):
+    - ImageSlideshow/Core (= 1.8.0)
+  - ImageSlideshow/Core (1.8.0)
+  - PMSuperButton (3.0.1)
+
+DEPENDENCIES:
+  - ImageSlideshow
+  - ImageSlideshow (~> 1.8)
+  - PMSuperButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ImageSlideshow
+    - PMSuperButton
+
+SPEC CHECKSUMS:
+  ImageSlideshow: 197130fe349aafa9446f54277c792551d41eadf9
+  PMSuperButton: 2bef6f8659a5df969a69887f496ef309480c65eb
+
+PODFILE CHECKSUM: 567fba4ad8a4d7262afce021348b57c736a813b6
+
+COCOAPODS: 1.6.1

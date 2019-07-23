@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC70B88E22DA422100B66CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70B88D22DA422100B66CE5 /* AppDelegate.swift */; };
+		EC70B89022DA422100B66CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70B88F22DA422100B66CE5 /* ViewController.swift */; };
+		EC70B89322DA422100B66CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC70B89122DA422100B66CE5 /* Main.storyboard */; };
+		EC70B89522DA422100B66CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC70B89422DA422100B66CE5 /* Assets.xcassets */; };
+		EC70B89822DA422100B66CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC70B89622DA422100B66CE5 /* LaunchScreen.storyboard */; };
+		EC70B8A022DA733200B66CE5 /* MardinTaniyalimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70B89F22DA733200B66CE5 /* MardinTaniyalimVC.swift */; };
+		EC70B8A222DA799500B66CE5 /* ImageSlideshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC70B8A122DA799500B66CE5 /* ImageSlideshow.framework */; };
+		EC70B8A422DA7C5000B66CE5 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EC70B8A322DA7C4F00B66CE5 /* bg.png */; };
+		EC70B8A722DA7EAD00B66CE5 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EC70B8A622DA7EAD00B66CE5 /* back.png */; };
+		EC70B8A922DA7FAD00B66CE5 /* geri.png in Resources */ = {isa = PBXBuildFile; fileRef = EC70B8A822DA7FAD00B66CE5 /* geri.png */; };
+		EC70B8AB22DA806800B66CE5 /* street_cred.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC70B8AA22DA806800B66CE5 /* street_cred.ttf */; };
+		EC70B8AE22DA919800B66CE5 /* IletisimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC70B8AD22DA919800B66CE5 /* IletisimVC.swift */; };
+		EC70B8B022DA933D00B66CE5 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = EC70B8AF22DA933D00B66CE5 /* facebook.png */; };
+		EC70B8B222DA940100B66CE5 /* facebook-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC70B8B122DA940100B66CE5 /* facebook-logo.png */; };
+		EC70B8B922DA96B400B66CE5 /* twitter1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC70B8B722DA96B400B66CE5 /* twitter1.png */; };
+		EC70B8BA22DA96B400B66CE5 /* instagram1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC70B8B822DA96B400B66CE5 /* instagram1.png */; };
+		EC70B8BD22DA9B4E00B66CE5 /* twitter2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC70B8BB22DA9B4E00B66CE5 /* twitter2.png */; };
+		EC70B8BE22DA9B4E00B66CE5 /* instagram2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC70B8BC22DA9B4E00B66CE5 /* instagram2.png */; };
+		ECA1C98422DAA64900E5C460 /* MedreselerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C98322DAA64900E5C460 /* MedreselerVC.swift */; };
+		ECA1C98622DAA9CF00E5C460 /* FikirVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C98522DAA9CF00E5C460 /* FikirVC.swift */; };
+		ECA1C98822DAB40A00E5C460 /* CamilerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C98722DAB40A00E5C460 /* CamilerVC.swift */; };
+		ECA1C98A22DAC1C100E5C460 /* KiliseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C98922DAC1C100E5C460 /* KiliseVC.swift */; };
+		ECA1C98C22DAC1CE00E5C460 /* ManastirVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C98B22DAC1CE00E5C460 /* ManastirVC.swift */; };
+		ECA1C98E22DAC31C00E5C460 /* KalelerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C98D22DAC31C00E5C460 /* KalelerVC.swift */; };
+		ECA1C99022DAC33100E5C460 /* MuzelerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C98F22DAC33100E5C460 /* MuzelerVC.swift */; };
+		ECA1C99222DAC7DC00E5C460 /* OtellerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C99122DAC7DC00E5C460 /* OtellerVC.swift */; };
+		ECA1C99422DAC80600E5C460 /* YoreselVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C99322DAC80600E5C460 /* YoreselVC.swift */; };
+		ECA1C99622DAC82900E5C460 /* ElSanatlariVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA1C99522DAC82900E5C460 /* ElSanatlariVC.swift */; };
+		F63F33B731AEA44159D3A1D7 /* Pods_MardinGunesi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77580A3083130A94CBC12BFD /* Pods_MardinGunesi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5699BB57BAA705E8F2CECB19 /* Pods-MardinGunesi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MardinGunesi.release.xcconfig"; path = "Target Support Files/Pods-MardinGunesi/Pods-MardinGunesi.release.xcconfig"; sourceTree = "<group>"; };
+		77580A3083130A94CBC12BFD /* Pods_MardinGunesi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MardinGunesi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B876FCE8ADB3273AAA28A1E /* Pods-MardinGunesi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MardinGunesi.debug.xcconfig"; path = "Target Support Files/Pods-MardinGunesi/Pods-MardinGunesi.debug.xcconfig"; sourceTree = "<group>"; };
+		EC70B88A22DA422100B66CE5 /* MardinGunesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MardinGunesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC70B88D22DA422100B66CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC70B88F22DA422100B66CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC70B89222DA422100B66CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC70B89422DA422100B66CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC70B89722DA422100B66CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC70B89922DA422100B66CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC70B89F22DA733200B66CE5 /* MardinTaniyalimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MardinTaniyalimVC.swift; sourceTree = "<group>"; };
+		EC70B8A122DA799500B66CE5 /* ImageSlideshow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ImageSlideshow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC70B8A322DA7C4F00B66CE5 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		EC70B8A622DA7EAD00B66CE5 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		EC70B8A822DA7FAD00B66CE5 /* geri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geri.png; sourceTree = "<group>"; };
+		EC70B8AA22DA806800B66CE5 /* street_cred.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = street_cred.ttf; sourceTree = "<group>"; };
+		EC70B8AD22DA919800B66CE5 /* IletisimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IletisimVC.swift; sourceTree = "<group>"; };
+		EC70B8AF22DA933D00B66CE5 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		EC70B8B122DA940100B66CE5 /* facebook-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-logo.png"; sourceTree = "<group>"; };
+		EC70B8B722DA96B400B66CE5 /* twitter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter1.png; sourceTree = "<group>"; };
+		EC70B8B822DA96B400B66CE5 /* instagram1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram1.png; sourceTree = "<group>"; };
+		EC70B8BB22DA9B4E00B66CE5 /* twitter2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter2.png; sourceTree = "<group>"; };
+		EC70B8BC22DA9B4E00B66CE5 /* instagram2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram2.png; sourceTree = "<group>"; };
+		ECA1C98322DAA64900E5C460 /* MedreselerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedreselerVC.swift; sourceTree = "<group>"; };
+		ECA1C98522DAA9CF00E5C460 /* FikirVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FikirVC.swift; sourceTree = "<group>"; };
+		ECA1C98722DAB40A00E5C460 /* CamilerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamilerVC.swift; sourceTree = "<group>"; };
+		ECA1C98922DAC1C100E5C460 /* KiliseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliseVC.swift; sourceTree = "<group>"; };
+		ECA1C98B22DAC1CE00E5C460 /* ManastirVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManastirVC.swift; sourceTree = "<group>"; };
+		ECA1C98D22DAC31C00E5C460 /* KalelerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalelerVC.swift; sourceTree = "<group>"; };
+		ECA1C98F22DAC33100E5C460 /* MuzelerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzelerVC.swift; sourceTree = "<group>"; };
+		ECA1C99122DAC7DC00E5C460 /* OtellerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtellerVC.swift; sourceTree = "<group>"; };
+		ECA1C99322DAC80600E5C460 /* YoreselVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoreselVC.swift; sourceTree = "<group>"; };
+		ECA1C99522DAC82900E5C460 /* ElSanatlariVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElSanatlariVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC70B88722DA422100B66CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC70B8A222DA799500B66CE5 /* ImageSlideshow.framework in Frameworks */,
+				F63F33B731AEA44159D3A1D7 /* Pods_MardinGunesi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB3EB37A0F510E5755603151 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B876FCE8ADB3273AAA28A1E /* Pods-MardinGunesi.debug.xcconfig */,
+				5699BB57BAA705E8F2CECB19 /* Pods-MardinGunesi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5F3B7FBE9E87D1886E8431F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC70B8A122DA799500B66CE5 /* ImageSlideshow.framework */,
+				77580A3083130A94CBC12BFD /* Pods_MardinGunesi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC70B88122DA422100B66CE5 = {
+			isa = PBXGroup;
+			children = (
+				EC70B88C22DA422100B66CE5 /* MardinGunesi */,
+				EC70B88B22DA422100B66CE5 /* Products */,
+				BB3EB37A0F510E5755603151 /* Pods */,
+				E5F3B7FBE9E87D1886E8431F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC70B88B22DA422100B66CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC70B88A22DA422100B66CE5 /* MardinGunesi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC70B88C22DA422100B66CE5 /* MardinGunesi */ = {
+			isa = PBXGroup;
+			children = (
+				EC70B8AC22DA806B00B66CE5 /* font */,
+				EC70B8A522DA7C5400B66CE5 /* images */,
+				EC70B88D22DA422100B66CE5 /* AppDelegate.swift */,
+				EC70B88F22DA422100B66CE5 /* ViewController.swift */,
+				EC70B89122DA422100B66CE5 /* Main.storyboard */,
+				EC70B89422DA422100B66CE5 /* Assets.xcassets */,
+				EC70B89622DA422100B66CE5 /* LaunchScreen.storyboard */,
+				EC70B89922DA422100B66CE5 /* Info.plist */,
+				EC70B89F22DA733200B66CE5 /* MardinTaniyalimVC.swift */,
+				EC70B8AD22DA919800B66CE5 /* IletisimVC.swift */,
+				ECA1C98322DAA64900E5C460 /* MedreselerVC.swift */,
+				ECA1C98522DAA9CF00E5C460 /* FikirVC.swift */,
+				ECA1C98722DAB40A00E5C460 /* CamilerVC.swift */,
+				ECA1C98922DAC1C100E5C460 /* KiliseVC.swift */,
+				ECA1C98B22DAC1CE00E5C460 /* ManastirVC.swift */,
+				ECA1C98D22DAC31C00E5C460 /* KalelerVC.swift */,
+				ECA1C98F22DAC33100E5C460 /* MuzelerVC.swift */,
+				ECA1C99122DAC7DC00E5C460 /* OtellerVC.swift */,
+				ECA1C99322DAC80600E5C460 /* YoreselVC.swift */,
+				ECA1C99522DAC82900E5C460 /* ElSanatlariVC.swift */,
+			);
+			path = MardinGunesi;
+			sourceTree = "<group>";
+		};
+		EC70B8A522DA7C5400B66CE5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EC70B8BC22DA9B4E00B66CE5 /* instagram2.png */,
+				EC70B8BB22DA9B4E00B66CE5 /* twitter2.png */,
+				EC70B8B822DA96B400B66CE5 /* instagram1.png */,
+				EC70B8B722DA96B400B66CE5 /* twitter1.png */,
+				EC70B8B122DA940100B66CE5 /* facebook-logo.png */,
+				EC70B8AF22DA933D00B66CE5 /* facebook.png */,
+				EC70B8A822DA7FAD00B66CE5 /* geri.png */,
+				EC70B8A622DA7EAD00B66CE5 /* back.png */,
+				EC70B8A322DA7C4F00B66CE5 /* bg.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		EC70B8AC22DA806B00B66CE5 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				EC70B8AA22DA806800B66CE5 /* street_cred.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC70B88922DA422100B66CE5 /* MardinGunesi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC70B89C22DA422200B66CE5 /* Build configuration list for PBXNativeTarget "MardinGunesi" */;
+			buildPhases = (
+				27A715ED2960943EAF86A966 /* [CP] Check Pods Manifest.lock */,
+				EC70B88622DA422100B66CE5 /* Sources */,
+				EC70B88722DA422100B66CE5 /* Frameworks */,
+				EC70B88822DA422100B66CE5 /* Resources */,
+				287B9B38A306F4F8696C6935 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MardinGunesi;
+			productName = MardinGunesi;
+			productReference = EC70B88A22DA422100B66CE5 /* MardinGunesi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC70B88222DA422100B66CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "ismail şato";
+				TargetAttributes = {
+					EC70B88922DA422100B66CE5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EC70B88522DA422100B66CE5 /* Build configuration list for PBXProject "MardinGunesi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC70B88122DA422100B66CE5;
+			productRefGroup = EC70B88B22DA422100B66CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC70B88922DA422100B66CE5 /* MardinGunesi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC70B88822DA422100B66CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC70B8B222DA940100B66CE5 /* facebook-logo.png in Resources */,
+				EC70B89822DA422100B66CE5 /* LaunchScreen.storyboard in Resources */,
+				EC70B8BE22DA9B4E00B66CE5 /* instagram2.png in Resources */,
+				EC70B8B022DA933D00B66CE5 /* facebook.png in Resources */,
+				EC70B8B922DA96B400B66CE5 /* twitter1.png in Resources */,
+				EC70B8A722DA7EAD00B66CE5 /* back.png in Resources */,
+				EC70B8A922DA7FAD00B66CE5 /* geri.png in Resources */,
+				EC70B89522DA422100B66CE5 /* Assets.xcassets in Resources */,
+				EC70B8AB22DA806800B66CE5 /* street_cred.ttf in Resources */,
+				EC70B8BD22DA9B4E00B66CE5 /* twitter2.png in Resources */,
+				EC70B8A422DA7C5000B66CE5 /* bg.png in Resources */,
+				EC70B8BA22DA96B400B66CE5 /* instagram1.png in Resources */,
+				EC70B89322DA422100B66CE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A715ED2960943EAF86A966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MardinGunesi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		287B9B38A306F4F8696C6935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MardinGunesi/Pods-MardinGunesi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/PMSuperButton/PMSuperButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMSuperButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MardinGunesi/Pods-MardinGunesi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC70B88622DA422100B66CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA1C98622DAA9CF00E5C460 /* FikirVC.swift in Sources */,
+				ECA1C98422DAA64900E5C460 /* MedreselerVC.swift in Sources */,
+				ECA1C99222DAC7DC00E5C460 /* OtellerVC.swift in Sources */,
+				ECA1C98C22DAC1CE00E5C460 /* ManastirVC.swift in Sources */,
+				ECA1C99422DAC80600E5C460 /* YoreselVC.swift in Sources */,
+				EC70B8AE22DA919800B66CE5 /* IletisimVC.swift in Sources */,
+				ECA1C99022DAC33100E5C460 /* MuzelerVC.swift in Sources */,
+				ECA1C98A22DAC1C100E5C460 /* KiliseVC.swift in Sources */,
+				EC70B8A022DA733200B66CE5 /* MardinTaniyalimVC.swift in Sources */,
+				EC70B89022DA422100B66CE5 /* ViewController.swift in Sources */,
+				EC70B88E22DA422100B66CE5 /* AppDelegate.swift in Sources */,
+				ECA1C99622DAC82900E5C460 /* ElSanatlariVC.swift in Sources */,
+				ECA1C98822DAB40A00E5C460 /* CamilerVC.swift in Sources */,
+				ECA1C98E22DAC31C00E5C460 /* KalelerVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC70B89122DA422100B66CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC70B89222DA422100B66CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC70B89622DA422100B66CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC70B89722DA422100B66CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC70B89A22DA422100B66CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC70B89B22DA422200B66CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC70B89D22DA422200B66CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B876FCE8ADB3273AAA28A1E /* Pods-MardinGunesi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 227CL59QS5;
+				INFOPLIST_FILE = MardinGunesi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"(recursive)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"(non-recursive)\n$(SRCROOT)",
+					"(recursive)",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoyazilim.MardinGunesi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EC70B89E22DA422200B66CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5699BB57BAA705E8F2CECB19 /* Pods-MardinGunesi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 227CL59QS5;
+				INFOPLIST_FILE = MardinGunesi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"(recursive)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"(non-recursive)\n$(SRCROOT)",
+					"(recursive)",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoyazilim.MardinGunesi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC70B88522DA422100B66CE5 /* Build configuration list for PBXProject "MardinGunesi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC70B89A22DA422100B66CE5 /* Debug */,
+				EC70B89B22DA422200B66CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC70B89C22DA422200B66CE5 /* Build configuration list for PBXNativeTarget "MardinGunesi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC70B89D22DA422200B66CE5 /* Debug */,
+				EC70B89E22DA422200B66CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC70B88222DA422100B66CE5 /* Project object */;
+}

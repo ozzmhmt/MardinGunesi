@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirFikrimVar"
+    android:background="@color/colorPrimary">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarfikir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/black"
+        android:background="@color/colorPrimary"
+        >
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Toolbar Title"
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/konuTextView"
+        android:text="KONU"
+        android:textSize="20dp"
+        android:layout_below="@id/toolbarfikir"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimary"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/konuEditText"
+        android:layout_below="@+id/konuTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fikirTextView"
+        android:text="FiKRiNiZ"
+        android:textSize="20dp"
+        android:layout_below="@+id/konuEditText"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/fikirEditText"
+        android:layout_below="@+id/fikirTextView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fikirButton"
+        android:layout_below="@+id/fikirEditText"
+        android:text="Gönder"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttonshape"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fikirButton"
+        android:layout_margin="30dp"
+        android:text="Bizimle fikirlerinizi paylaşın, gelişmemize yardımcı olun."
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+</RelativeLayout>

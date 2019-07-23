@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GezilecekYerler">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/black"
+        android:background="@color/colorPrimary"
+        >
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Toolbar Title"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/toolbar">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/medreselerBtn"
+                android:background="@drawable/btnmedrese"
+                android:layout_marginTop="5dp"
+                />
+
+            <Button
+                android:id="@+id/camiBtn"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/btncamiler"
+                android:layout_marginTop="5dp"
+                />
+
+            <Button
+                android:id="@+id/kiliseBtn"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/btnkilise"
+                android:layout_marginTop="5dp"
+                />
+
+            <Button
+                android:id="@+id/manastirbtn"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/btnmanastir"
+                android:layout_marginTop="5dp"
+                />
+
+            <Button
+                android:id="@+id/kaleBtn"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/btnkaleler"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+            <Button
+                android:id="@+id/muzebtn"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/btnmuzeler"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
