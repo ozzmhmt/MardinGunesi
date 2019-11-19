@@ -10,5 +10,4 @@ target 'MardinGunesi' do
 	pod 'ImageSlideshow'
 
   # Pods for MardinGunesi
-
 end
